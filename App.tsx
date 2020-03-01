@@ -1,10 +1,11 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
+import { Colors } from "react-native/Libraries/NewAppScreen";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Loyalty Card App by Code.Sydney</Text>
+      <Text style={{ color: "#fff" }}>Loyalty Card App by Code.Sydney</Text>
     </View>
   );
 }
@@ -12,7 +13,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#1F3F55",
     alignItems: "center",
     justifyContent: "center"
   }

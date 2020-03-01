@@ -13,7 +13,7 @@ For more information, please check the wiki link of this repo.
 2. Go to the directory type
    `cd loyaltycard`
 
-3, Install Expo CLI `npm install -g expo-cli` – reference https://reactnative.dev/docs/getting-started
+3. Install Expo CLI `npm install -g expo-cli` – reference https://reactnative.dev/docs/getting-started
 
 4. Run `npm install`
 
