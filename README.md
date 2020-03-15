@@ -19,6 +19,10 @@ For more information, please check the wiki link of this repo.
 
 5. Start the application by running the script `npm start`
 
+## Draft: JSON response and Data Structure
+
+- [Draft - JSON Response](https://github.com/thecodesydney/loyaltycard/wiki/Draft-JSON-Response)
+
 ### Notes:
 
 - Make sure `Xcode` is installed if you are using Mac OS. You can run the Xcode Simulator by typing `open -a Simulator.app`

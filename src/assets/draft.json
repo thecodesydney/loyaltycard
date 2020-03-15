@@ -1,0 +1,54 @@
+{
+  "id": 1,
+  "ownerId": 2,
+  "cafeId": 100,
+  "created": "2015-02-05T02:40:31Z",
+  "updated": "2015-03-05T02:40:31Z",
+  "customers": [
+    {
+      "customerName": "Promie",
+      "created": "2015-02-05T02:40:31Z",
+      "updated": "2015-03-05T02:40:31Z",
+      "currentCounterBeforeFree": 8,
+      "totalCoffeePurchased": 2,
+      "freeCoffeeToDate": 0,
+      "purchases": [
+        {
+          "name": "Latte",
+          "price": 350,
+          "stamped": true
+        },
+        {
+          "name": "Espresso",
+          "price": 350,
+          "stamped": true
+        }
+      ]
+    },
+    {
+      "customerName": "Surya",
+      "created": "2015-02-05T02:40:31Z",
+      "updated": "2015-03-05T02:40:31Z",
+      "currentCounterBeforeFree": 7,
+      "totalCoffeePurchased": 3,
+      "freeCoffeeToDate": 0,
+      "purchases": [
+        {
+          "name": "Latte",
+          "price": 350,
+          "stamped": true
+        },
+        {
+          "name": "Espresso",
+          "price": 350,
+          "stamped": true
+        },
+        {
+          "name": "Long Black",
+          "price": 350,
+          "stamped": true
+        }
+      ]
+    }
+  ]
+}
