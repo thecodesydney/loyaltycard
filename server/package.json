@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Backend express app with typescript for Loyalty Card\"",
+  "main": "server.ts",
+  "scripts": {
+    "start": "node dist/server.js",
+    "server": "nodemon src/server.ts",
+    "build": "tsc -p ."
+  },
+  "repository": "https://github.com/thecodesydney/loyaltycard",
+  "author": "Promie Yutasane",
+  "license": "MIT",
+  "dependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/morgan": "^1.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.5",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.3",
+    "@types/node": "^13.9.2",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.7.0",
+    "typescript": "^3.8.3"
+  }
+}
