@@ -1,6 +1,7 @@
 import express, { Application, Request, Response, NextFunction } from 'express'
 import morgan from 'morgan'
 import cors from 'cors'
+import ownersRoute from './routes/owner'
 
 const app: Application = express()
 
@@ -9,9 +10,8 @@ app.use(morgan('dev'))
 app.use(cors())
 app.use(express.json())
 
-app.get('/', (req: Request, res: Response, next: NextFunction) => {
-  res.send('Hello')
-})
+// Routes
+app.use('/api/v1/owners', ownersRoute)
 
 const PORT = process.env.PORT || 5000
 
