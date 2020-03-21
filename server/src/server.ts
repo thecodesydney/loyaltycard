@@ -1,9 +1,9 @@
-import express, { Application, Request, Response, NextFunction } from 'express'
+import express from 'express'
 import morgan from 'morgan'
 import cors from 'cors'
 import ownersRoute from './routes/owner'
 
-const app: Application = express()
+const app: express.Application = express()
 
 // Middlewares
 app.use(morgan('dev'))
